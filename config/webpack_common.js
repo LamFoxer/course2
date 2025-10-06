@@ -7,6 +7,7 @@ const webpack = require('webpack')
 const path = require('path')
 
 module.exports = {
+  //grisha test
   entry: {
     index: './src/javascripts/index.js'
   },
