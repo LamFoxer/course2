@@ -13,8 +13,8 @@ const htmlPages = [
   createPages('./src/pages/tests.html', './pages/tests.html'),
   createPages('./src/pages/dictionary.html', './pages/dictionary.html'),
   createPages(
-    './src/pages/articles/plants.html',
-    './pages/articles/plants.html'
+    './src/pages/articles/artists.html',
+    './pages/articles/artists.html'
   ),
   createPages('./src/pages/tests/test1.html', './pages/tests/test1.html')
 ]

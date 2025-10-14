@@ -55,10 +55,10 @@ module.exports = {
   plugins: [new MiniCssExtractPlugin(), ...htmlPages],
   optimization: {
     minimizer: [new CssMinimizerPlugin()]
-  },
-  resolve: {
-    fallback: {
-      stream: require.resolve('stream-browserify')
-    }
   }
+  // resolve: {
+  //   fallback: {
+  //     stream: require.resolve('stream-browserify')
+  //   }
+  // }
 }

@@ -1,3 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: calc(1vw / 14, 4);
+}
 body {
   font-family: 'PT Root UI', Arial, Arial, Helvetica, sans-serif;
+  font-size: 14rem;
+}
+.zaglushka {
+  background-color: #333;
+  color: #eee;
+  width: 100%;
+  display: flex;
+}
+.text {
+  display: flex;
+  flex-direction: column;
 }
