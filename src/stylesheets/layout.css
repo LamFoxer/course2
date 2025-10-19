@@ -2,19 +2,110 @@
   box-sizing: border-box;
 }
 html {
-  font-size: calc(1vw / 14, 4);
+  font-size: calc(1vw / 14.4);
 }
 body {
-  font-family: 'PT Root UI', Arial, Arial, Helvetica, sans-serif;
+  font-family: 'Benzin Bold', Arial, Helvetica, sans-serif;
   font-size: 14rem;
 }
-.zaglushka {
-  background-color: #333;
-  color: #eee;
+section {
+  height: 100vh;
   width: 100%;
   display: flex;
-}
-.text {
-  display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-direction: column;
+}
+p {
+  font-size: 18rem;
+  font-weight: 700;
+}
+.logo_container {
+  display: flex;
+  margin-top: 23rem;
+}
+.logo {
+  width: 217rem;
+  height: 61rem;
+}
+.upLeftWord {
+  align-self: flex-start;
+}
+.downRightWord {
+  align-self: flex-end;
+}
+.titleOnTop {
+  margin-top: 55rem;
+}
+.gallery_container {
+  display: flex;
+  margin-top: -135rem;
+}
+.switchBack {
+  width: 0;
+  height: 0;
+  border-top: 26rem solid transparent;
+  border-right: 28.7rem solid rgb(0, 0, 0);
+  border-bottom: 26rem solid transparent;
+  rotate: -15deg;
+  margin-top: 159rem;
+  margin-left: 8rem;
+}
+.switchFurther {
+  width: 0;
+  height: 0;
+  border-top: 26rem solid transparent;
+  border-left: 28.7rem solid rgb(0, 0, 0);
+  border-bottom: 26rem solid transparent;
+  rotate: 15deg;
+  margin-top: 159rem;
+  margin-left: 8rem;
+  /* как было:
+  border-top: 31.5rem solid transparent;
+  border-left: 35rem solid rgb(0, 0, 0);
+  border-bottom: 31.5rem solid transparent;
+  rotate: 15deg;
+  margin-top: 194rem;
+  margin-left: 10rem; */
+}
+.gallery_image {
+  width: 280rem;
+  height: 280rem;
+  border-radius: 6rem;
+}
+.image1 {
+  rotate: -15deg;
+  margin-right: -50rem;
+  margin-left: 10rem;
+}
+.image2 {
+  display: inline;
+  z-index: 2;
+}
+.image3 {
+  rotate: 15deg;
+  margin-left: -50rem;
+}
+.image4 {
+  rotate: -15deg;
+  margin-right: -70rem;
+  display: none;
+}
+.image5 {
+  display: none;
+}
+.image6 {
+  rotate: 15deg;
+  margin-right: -92rem;
+  display: none;
+}
+.description {
+  margin-top: 40rem;
+}
+.media_container {
+  display: flex;
+  position: absolute;
+  color: white;
+  top: 90%;
+  left: calc(50% - 102rem);
 }
