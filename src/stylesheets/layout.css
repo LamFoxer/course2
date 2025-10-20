@@ -12,7 +12,7 @@ section {
   height: 100vh;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   flex-direction: column;
 }
@@ -35,42 +35,37 @@ p {
   align-self: flex-end;
 }
 .titleOnTop {
-  margin-top: 55rem;
+  margin-top: 72rem;
 }
 .gallery_container {
   display: flex;
-  margin-top: -135rem;
+  margin-top: 20rem;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
 }
 .switchBack {
   width: 0;
   height: 0;
-  border-top: 26rem solid transparent;
-  border-right: 28.7rem solid rgb(0, 0, 0);
-  border-bottom: 26rem solid transparent;
+  border-top: 23rem solid transparent;
+  border-right: 25rem solid rgb(0, 0, 0);
+  border-bottom: 23rem solid transparent;
   rotate: -15deg;
-  margin-top: 159rem;
+  margin-top: 142rem;
   margin-left: 8rem;
 }
 .switchFurther {
   width: 0;
   height: 0;
-  border-top: 26rem solid transparent;
-  border-left: 28.7rem solid rgb(0, 0, 0);
-  border-bottom: 26rem solid transparent;
+  border-top: 23rem solid transparent;
+  border-left: 25rem solid rgb(0, 0, 0);
+  border-bottom: 23rem solid transparent;
   rotate: 15deg;
-  margin-top: 159rem;
+  margin-top: 142rem;
   margin-left: 8rem;
-  /* как было:
-  border-top: 31.5rem solid transparent;
-  border-left: 35rem solid rgb(0, 0, 0);
-  border-bottom: 31.5rem solid transparent;
-  rotate: 15deg;
-  margin-top: 194rem;
-  margin-left: 10rem; */
 }
 .gallery_image {
-  width: 280rem;
-  height: 280rem;
+  width: 250rem;
+  height: 250rem;
   border-radius: 6rem;
 }
 .image1 {
@@ -100,12 +95,37 @@ p {
   display: none;
 }
 .description {
-  margin-top: 40rem;
+  margin-top: 100rem;
+}
+.link {
+  text-decoration: none;
+  color: rgb(145, 178, 210);
+}
+.footer_container {
+  position: absolute;
+  width: 100vw;
+  height: 137rem;
+  left: 0;
+  bottom: 0;
+}
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 137rem;
+  left: 0;
+  bottom: 0;
 }
 .media_container {
   display: flex;
   position: absolute;
   color: white;
-  top: 90%;
-  left: calc(50% - 102rem);
+  left: calc(50% - 55rem);
+  bottom: 60rem;
+  z-index: 2;
+  gap: 10rem;
+  align-items: center;
+}
+.linkInFooter {
+  text-decoration: none;
+  color: white;
 }
